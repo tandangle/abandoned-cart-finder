@@ -69,15 +69,6 @@ const submitForm = () => {
                                             last_name
                                         </th>
                                         <th>
-                                            orders_count
-                                        </th>
-                                        <th>
-                                            total_spent
-                                        </th>
-                                        <th>
-                                            address
-                                        </th>
-                                        <th>
                                             created_at
                                         </th>
                                         <th>
@@ -99,15 +90,6 @@ const submitForm = () => {
                                         </td>
                                         <td>
                                             ${cart.customer.last_name}
-                                        </td>
-                                        <td>
-                                            ${cart.customer.orders_count}
-                                        </td>
-                                        <td>
-                                            ${cart.customer.total_spent}
-                                        </td>
-                                        <td>
-                                            ${JSON.stringify(cart.customer.address)}
                                         </td>
                                         <td>
                                             ${cart.created_at}
