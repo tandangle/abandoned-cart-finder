@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    position: relative;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 3rem;
+}
+
+#wrapper div {
+    width: 100%;
+    font-size: 2rem;
+}
+
+#wrapper div input {
+    margin-left: 2rem;
+    width: 400px;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 2rem;
+}
+
+/* Loader */
+
+#loader {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+#results {
+    font-size: 1rem;
+}

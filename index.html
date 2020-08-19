@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="loader"></div>
+    <main id="wrapper">
+        <div class="email-input">
+            <label for="email">Enter email address of the cart(s) you want to find:<input id="email" type="email" required></label>
+        </div>
+        <div class="api-input">
+            <label for="apikey">Enter the API key of the user's account (make sure to include the shard):<input id="apiKey" type="text" required></label>
+        </div>
+        <div class="submit-button">
+            <button type="button" onClick="submitForm()" >
+                Submit
+            </button>
+        </div>
+    </main>
+<div id="results"></div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="index.js"></script>
+</html>
+
